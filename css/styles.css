@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  max-width: 1920px;
+  height: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+.header_container {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.container img {
+  background-color: blue;
+  width: 115px;
+  height: 65px;
+  margin-left: 240px;
+}
+header {
+  background-color: blue;
+}
+nav {
+  margin-right: 241px;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+li {
+  margin-left: 40px;
+}
+a {
+  color: white;
+  font-size: 16px;
+}
+.contact {
+  border-radius: 28px;
+  background-color: white;
+  padding: 18px 43px 18px 36px;
+}
+.contact a {
+  color: black;
+  font-weight: bold;
+}
+.main {
+  border-bottom: 1px solid grey;
+}
+.container_2 {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+.top_img {
+  width: 1195px;
+  height: 600px;
+  margin-left: 362px;
+  margin-top: -175px;
+}
+h3 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-left: 362px;
+  margin-top: 30px;
+}
+.five_photos {
+  width: 1220px;
+  margin-left: 362px;
+  margin-top: 60px;
+}
+.five_photos img {
+  width: 219px;
+  height: 219px;
+  margin-left: 25px;
+}
+.five_photos img:first-child {
+  margin-left: 0;
+}
+.div_p {
+  width: 951px;
+  margin-left: 490px;
+  margin-top: 18px;
+}
+.div_p:first-child {
+  margin-top: 60px;
+}
+.btn {
+  margin-top: 76px;
+  margin-bottom: 198px;
+  margin-left: 847px;
+  width: 341px;
+  height: 55px;
+  border-radius: 28px;
+  background-color: blue;
+  color: white;
+}
+footer {
+  background-color: blue;
+}
+.container_3 {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+.footer_container {
+  padding-top: 275px;
+  display: flex;
+}
+h4 {
+  font-size: 32px;
+  margin-left: 240px;
+  color: white;
+}
+.div_p_2 {
+  margin-top: 30px;
+  margin-left: 240px;
+  width: 463px;
+}
+.footer_left p {
+  font-size: 16px;
+  color: white;
+}
+.background {
+  width: 463px;
+  height: 197px;
+  border-radius: 15px;
+  background-color: white;
+  margin-left: 240px;
+  margin-top: 68px;
+  position: relative;
+}
+iframe {
+  position: absolute;
+  width: 463px;
+  height: 197px;
+  left: 10px;
+  bottom: 10px;
+  border-radius: 18px;
+}
+.footer_adress {
+  margin-top: 70px;
+  margin-left: 240px;
+  display: flex;
+  align-items: center;
+}
+.circle {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  border-radius: 50%;
+  background-color: white;
+}
+.circle:last-of-type {
+  margin-left: 98px;
+}
+.circle img {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  left: 22px;
+  top: 22px;
+}
+.p_p {
+  margin-left: 20px;
+  font-size: 22px;
+  width: 178px;
+}
+.p_p:last-of-type {
+  width: 216px;
+}
+.rights {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 240px;
+  width: 1318px;
+  margin-top: 105px;
+  padding-bottom: 40px;
+  margin-right: 241px;
+}
+.rights p {
+  font-size: 16px;
+  color: white;
+}
+.footer_last p {
+  font-size: 13px;
+}
+.footer_last img {
+  width: 26px;
+  height: 26px;
+  margin-left: 15px;
+}
+.footer_last img:last-of-type {
+  width: 121px;
+  height: 35px;
+  margin-left: 30px;
+}
+.footer_last {
+  display: flex;
+  align-items: center;
+}
+
+.form-fields input {
+  font-size: 16px;
+  font-family: "BPG Glaho Arial", sans-serif;
+  width: 463px;
+  height: 60px;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 40px;
+  border-bottom: 1px solid grey;
+}
+.form-fields textarea {
+  font-size: 16px;
+  font-family: "BPG Glaho Arial", sans-serif;
+  width: 463px;
+  height: 140px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+textarea {
+  resize: none;
+  display: block;
+}
+.button {
+  display: inline-block;
+  margin-left: 300px;
+  margin-top: 120px;
+  width: 151px;
+  height: 55px;
+  background-color: #ffffff;
+  font-size: 16px;
+  color: #171717;
+  font-family: "BPG Glaho Arial", sans-serif;
+  font-weight: bolder;
+  border-radius: 28px;
+}
+textarea::placeholder,
+input::placeholder {
+  color: white;
+}
+.footer_right {
+  margin-left: 304px;
+  margin-top: 100px;
+  margin-right: 241px;
+}
